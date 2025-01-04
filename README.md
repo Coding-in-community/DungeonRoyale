@@ -14,8 +14,7 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 
 ## **🎮 Características do Jogo**
 
-- **Estilo clássico de Bomberman**: Coloque bombas, destrua obstáculos e elimine inimigos.
-- **Modo Battle Royale**: Até 20 jogadores competem simultaneamente em um mapa que encolhe ao longo do tempo.
+- **Modo Battle Royale**: Até 8 jogadores competem simultaneamente em um mapa que encolhe ao longo do tempo.
 - **Dungeon dinâmica**: Mapas gerados proceduralmente para oferecer desafios únicos a cada partida.
 - **Enfrente monstros**: Além de competir com outros jogadores, lute contra monstros que guardam recompensas valiosas.
 - **Itens e power-ups**: Colete habilidades, melhorias de bombas, escudos e muito mais.
