@@ -1,7 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://8b4qgbyybv6n"]
+[gd_scene load_steps=10 format=3 uid="uid://8b4qgbyybv6n"]
 
 [ext_resource type="Texture2D" uid="uid://6k3ufay0uu68" path="res://Src/Modules/MainMenu/Textures/windowButton.png" id="1_8nofx"]
 [ext_resource type="Theme" uid="uid://clkl55xy60wu6" path="res://Src/Shared/Resources/defaultTheme.tres" id="1_f5yii"]
+[ext_resource type="Script" uid="uid://b68meiqvc214j" path="res://Src/Modules/MainMenu/Scripts/InitialScreen.cs" id="1_rt3qc"]
+[ext_resource type="PackedScene" uid="uid://craosk8pj4wxt" path="res://Src/Modules/Game/Scenes/Game.tscn" id="2_78u37"]
 [ext_resource type="Texture2D" uid="uid://cmkiwtnqq8y7s" path="res://Src/Modules/MainMenu/Textures/windowButtonPressed.png" id="2_f5yii"]
 
 [sub_resource type="Image" id="Image_i3rq3"]
@@ -41,6 +43,8 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_rt3qc")
+_gameScene = ExtResource("2_78u37")
 
 [node name="Window" type="TextureRect" parent="InitialScreen"]
 texture_filter = 1
@@ -113,3 +117,5 @@ grow_vertical = 2
 theme = ExtResource("1_f5yii")
 text = "Jogar Agora!"
 label_settings = SubResource("LabelSettings_rt3qc")
+
+[connection signal="pressed" from="InitialScreen/TextureButton" to="InitialScreen" method="OnPlayButtonPressed"]
