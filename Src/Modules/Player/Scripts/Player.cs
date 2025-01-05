@@ -6,7 +6,7 @@ public partial class Player : CharacterBody2D
 
     public override void _Process(double delta)
     {
-        var direction = Input.GetVector("left", "right", "up", "down");
+        var direction = Input.GetVector(MappedInputs.Left, MappedInputs.Right, MappedInputs.Up, MappedInputs.Down);
 
         Velocity = direction * _speed;
     }
