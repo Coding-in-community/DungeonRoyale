@@ -26,7 +26,7 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 
 ### **Requisitos**
 - [Godot Engine 4.x com .NET](https://godotengine.org/download)
-- .NET SDK 6.0 ou superior
+- .NET SDK 8.0 ou superior
 - [Git](https://git-scm.com/) para controle de versão
 
 ### **Passo a Passo**
