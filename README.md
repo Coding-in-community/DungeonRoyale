@@ -59,12 +59,13 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 
 ## **🌟 Contribuição**
 
-Contribuições são bem-vindas! Siga estas etapas para contribuir:
+Contribuições são bem-vindas, mas no momento **não estamos aceitando novas features**. Fique à vontade para:
 
-1. Faça um fork do projeto.
-2. Crie uma *branch* para sua feature ou correção:
-   ```bash
-   git checkout -b feature/nova-feature
+- **Reportar bugs:** Utilize a aba de *Issues* no repositório para descrever problemas encontrados.  
+- **Sugerir melhorias futuras:** Feedbacks gerais são sempre apreciados.
+
+Agradecemos sua compreensão e apoio!
+
 
 ---
 
