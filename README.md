@@ -33,7 +33,7 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/LeonardoCruzx/dungeon-bomber-royale.git
+   git clone https://github.com/LeonardoCruzx/DungeonRoyale.git
 
 2. Abra o projeto na Godot Engine:
    - Inicie a Godot Engine e selecione a opção **Import Project**.
