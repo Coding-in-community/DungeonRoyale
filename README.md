@@ -65,3 +65,31 @@ Contribuições são bem-vindas! Siga estas etapas para contribuir:
 2. Crie uma *branch* para sua feature ou correção:
    ```bash
    git checkout -b feature/nova-feature
+
+---
+
+## **📜 Créditos de Pixel Art**
+
+Este projeto utiliza pixel art gratuita de artistas talentosos da comunidade. Agradecemos profundamente suas contribuições para o mundo do desenvolvimento de jogos:
+
+- **Craftpix**  
+  - Recursos: [Dungeon Tileset](https://craftpix.net/freebies/free-top-down-roguelike-game-kit-pixel-art/)  
+  - Licença: [craftpix freebies](https://craftpix.net/file-licenses/) 
+
+Se você é um artista e gostaria de ver seus trabalhos incluídos, entre em contato conosco!
+
+---
+
+## **📜 Licença**
+
+Este projeto é licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
+
+---
+
+## **📞 Contato**
+
+Se você tiver dúvidas ou sugestões, entre em contato:
+- **Email:** leonardo.m.cruz@hotmail.com
+- **GitHub:** [LeonardoCruzx](https://github.com/LeonardoCruzx)
+
+---
