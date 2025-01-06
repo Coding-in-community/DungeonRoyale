@@ -1,4 +1,5 @@
-namespace DungeonRoyale.Src.Modules.Player.Scripts;
+using DungeonRoyale.Shared.Scripts;
+namespace DungeonRoyale.Modules.Player.Scripts;
 
 public partial class Player : CharacterBody2D
 {

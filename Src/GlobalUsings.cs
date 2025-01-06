@@ -1,3 +1,2 @@
-
 global using Godot;
-global using DungeonRoyale.Src.Shared.Scripts;
+global using DungeonRoyale.Shared.Scripts;

@@ -1,4 +1,4 @@
-namespace DungeonRoyale.Src.Shared.Scripts;
+namespace DungeonRoyale.Shared.Scripts;
 
 public static class MappedInputs
 {

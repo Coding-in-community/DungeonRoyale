@@ -1,4 +1,4 @@
-namespace DungeonRoyale.Src.Modules.MainMenu.Scripts;
+namespace DungeonRoyale.Modules.MainMenu.Scripts;
 
 public partial class InitialScreen : Control
 {
