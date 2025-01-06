@@ -25,7 +25,7 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 ## **🚀 Como Jogar**
 
 ### **Requisitos**
-- [Godot Engine 4.x com .NET](https://godotengine.org/download)
+- [Godot Engine 4.4 com .NET](https://godotengine.org/article/dev-snapshot-godot-4-4-dev-7)
 - .NET SDK 8.0 ou superior
 - [Git](https://git-scm.com/) para controle de versão
 
@@ -50,7 +50,7 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 
 ## **💻 Tecnologias Utilizadas**
 
-- **Game Engine:** Godot 4.x com suporte a C#
+- **Game Engine:** Godot 4.4 com suporte a C#
 - **Linguagem de programação:** C#
 - **Servidor Multiplayer:** Implementado em Godot utilizando WebSocket e GDScript
 - **Banco de Dados:** SQLite para salvar estatísticas e progresso dos jogadores
