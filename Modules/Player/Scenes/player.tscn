@@ -1,10 +1,10 @@
 [gd_scene load_steps=4 format=3 uid="uid://bgowra4ubjdnq"]
 
-[ext_resource type="Script" uid="uid://de61d5m60vonw" path="res://Src/Modules/Player/Scripts/Player.cs" id="1_d6hpj"]
-[ext_resource type="Texture2D" uid="uid://du7cgbk1wqk0g" path="res://Src/Modules/Player/Textures/Idle.png" id="2_d6hpj"]
+[ext_resource type="Script" path="res://Modules/Player/Scripts/Player.cs" id="1_d6hpj"]
+[ext_resource type="Texture2D" uid="uid://du7cgbk1wqk0g" path="res://Modules/Player/Textures/Idle.png" id="2_d6hpj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d6hpj"]
-radius = 7.14286
+radius = 7.14285
 height = 14.2857
 
 [node name="Player" type="CharacterBody2D"]
@@ -19,7 +19,6 @@ shape = SubResource("CapsuleShape2D_d6hpj")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(8, 8)
-scale = Vector2(1, 1)
 texture = ExtResource("2_d6hpj")
 
 [node name="Camera2D" type="Camera2D" parent="."]

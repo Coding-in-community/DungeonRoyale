@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://du7cgbk1wqk0g"
-path="res://.godot/imported/Idle.png-59e0bddc4cf3bca14482cc4b8546ec95.ctex"
+uid="uid://cmkiwtnqq8y7s"
+path="res://.godot/imported/windowButtonPressed.png-426e835431bd0a48482bd33ac5602549.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Src/Modules/Player/Textures/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-59e0bddc4cf3bca14482cc4b8546ec95.ctex"]
+source_file="res://Modules/MainMenu/Textures/windowButtonPressed.png"
+dest_files=["res://.godot/imported/windowButtonPressed.png-426e835431bd0a48482bd33ac5602549.ctex"]
 
 [params]
 

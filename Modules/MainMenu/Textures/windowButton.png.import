@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4otgt0i8rv0s"
-path="res://.godot/imported/Tileset.png-b3c5992e4ff1779fca28988bd57841e7.ctex"
+uid="uid://6k3ufay0uu68"
+path="res://.godot/imported/windowButton.png-9716c3361b081c7a1b4ccde314001778.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Src/Modules/TileMaps/Textures/Tileset.png"
-dest_files=["res://.godot/imported/Tileset.png-b3c5992e4ff1779fca28988bd57841e7.ctex"]
+source_file="res://Modules/MainMenu/Textures/windowButton.png"
+dest_files=["res://.godot/imported/windowButton.png-9716c3361b081c7a1b4ccde314001778.ctex"]
 
 [params]
 
