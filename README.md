@@ -14,11 +14,13 @@ No mundo sombrio de **Dungeon Royale**, os jogadores competem entre si e enfrent
 
 ## **🎮 Características do Jogo**
 
-- **Modo Battle Royale**: Até 8 jogadores competem simultaneamente em um mapa que encolhe ao longo do tempo.
-- **Dungeon dinâmica**: Mapas gerados proceduralmente para oferecer desafios únicos a cada partida.
-- **Enfrente monstros**: Além de competir com outros jogadores, lute contra monstros que guardam recompensas valiosas.
-- **Itens e power-ups**: Colete habilidades, melhorias de bombas, escudos e muito mais.
-- **Multiplayer online**: Jogue com amigos ou desafie jogadores ao redor do mundo.
+- **Modo Battle Royale**: Até 8 jogadores competem simultaneamente em um mapa que encolhe ao longo do tempo.  
+- **Dungeon dinâmica**: Mapas gerados proceduralmente para oferecer desafios únicos a cada partida.  
+- **Classes Jogáveis**: Escolha entre Arqueiro, Cavaleiro e Mago, cada um com habilidades únicas.  
+- **Monstros e Armadilhas**: Desafios adicionais em PVE para diversificar a jogabilidade.  
+- **Multiplayer local**: Jogue com amigos.  
+
+Para uma descrição mais detalhada do jogo, incluindo mecânicas, classes e sistema de itens, consulte o **[Game Design Document (GDD)](docs/GDD.md)**.
 
 ---
 
