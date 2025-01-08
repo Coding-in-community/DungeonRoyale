@@ -22,7 +22,7 @@ public partial class TilesManager : Node2D
         {
             for (int y = 0; y < _height; y++)
             {
-                Tiles[x, y] = new DRTileData(x, y, true);
+                Tiles[x, y] = new DRTileData(x, y, true, false);
             }
         }
     }
