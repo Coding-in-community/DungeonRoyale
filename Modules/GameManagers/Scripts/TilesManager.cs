@@ -6,10 +6,25 @@ namespace DungeonRoyale.Modules.GameManagers.Scripts;
 
 public partial class TilesManager : Node2D
 {
+    public static TilesManager? Instance { get; private set; }
+
     public DRTileData[,] Tiles { get; private set; } = new DRTileData[0, 0];
 
     private int _width;
     private int _height;
+
+    public override void _Ready()
+    {
+        if (Instance is null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            GD.PrintErr("There is already an instance of TilesManager in the scene.");
+        }
+    }
+
 
     public void SetUpTiles(int width, int height)
     {

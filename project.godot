@@ -15,6 +15,10 @@ run/main_scene="res://Modules/Game/Scenes/Game.tscn"
 config/features=PackedStringArray("4.4", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+TilesManager="*res://Modules/GameManagers/Scripts/TilesManager.cs"
+
 [dotnet]
 
 project/assembly_name="DungeonRoyale"
