@@ -1,6 +1,8 @@
+using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 using DungeonRoyale.Modules.Tiles.Scripts;
+using DungeonRoyale.Shared.Scripts.Constants;
 
 namespace DungeonRoyale.Modules.GameManagers.Scripts;
 
@@ -25,21 +27,17 @@ public partial class TilesManager : Node2D
         }
     }
 
-
     public void SetUpTiles(int width, int height)
     {
+        if (width <= 0 || height <= 0)
+        {
+            throw new ArgumentException("Width and height must be greater than 0.");
+        }
+
         _width = width;
         _height = height;
 
         Tiles = new DRTileData[_width, _height];
-
-        for (int x = 0; x < _width; x++)
-        {
-            for (int y = 0; y < _height; y++)
-            {
-                Tiles[x, y] = new DRTileData(x, y, true, false);
-            }
-        }
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

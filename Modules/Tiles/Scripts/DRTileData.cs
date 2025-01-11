@@ -13,11 +13,9 @@ public partial class DRTileData
     {
     }
 
-    public DRTileData(int x, int y, bool isWalkable, bool isSpawnPoint)
+    public DRTileData(int x, int y)
     {
         X = x;
         Y = y;
-        IsWalkable = isWalkable;
-        IsSpawnPoint = isSpawnPoint;
     }
 }
