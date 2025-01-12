@@ -112,7 +112,7 @@ public partial class Player : CharacterBody2D
 		if (_animatedSprite.Animation == idleAnimation)
 			return;
 
-		PlayAnimation(idleAnimation);
+		PlayAnimation(idleAnimation, (_currentDirection == Direction.East));
 		_animatedSprite.SpeedScale = 1.0f;
 	}
 
