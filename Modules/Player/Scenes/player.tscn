@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" uid="uid://de61d5m60vonw" path="res://Modules/Player/Scripts/Player.cs" id="1_d6hpj"]
 [ext_resource type="Texture2D" uid="uid://brmg31ce6noqj" path="res://Modules/Player/Textures/d_idle.png" id="2_4itp8"]
-[ext_resource type="Texture2D" uid="uid://du7cgbk1wqk0g" path="res://Modules/Player/Textures/Idle.png" id="2_eeunm"]
+[ext_resource type="Texture2D" uid="uid://jf1knh77qpy2" path="res://Modules/Player/Textures/u_idle.png" id="2_eeunm"]
 [ext_resource type="Texture2D" uid="uid://bu3wecbmouixt" path="res://Modules/Player/Textures/d_walk.png" id="2_i873j"]
 [ext_resource type="Texture2D" uid="uid://c31cs04ddln8k" path="res://Modules/Player/Textures/s_walk.png" id="3_bxhrv"]
-[ext_resource type="Texture2D" uid="uid://dpu3tffj8in05" path="res://Modules/Player/Textures/walk.png" id="3_umw3d"]
+[ext_resource type="Texture2D" uid="uid://bu8810dpn686q" path="res://Modules/Player/Textures/u_walk.png" id="3_umw3d"]
 [ext_resource type="Texture2D" uid="uid://dyoql8jmirecv" path="res://Modules/Player/Textures/s_idle.png" id="4_5c0ey"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_d6hpj"]
