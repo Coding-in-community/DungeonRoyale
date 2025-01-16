@@ -1,4 +1,5 @@
 using DungeonRoyale.Modules.GameManagers.Scripts;
+using DungeonRoyale.Modules.Map.Scripts;
 
 namespace DungeonRoyale.Modules.Game.Scripts;
 
@@ -6,14 +7,13 @@ public partial class Game : Node2D
 {
     private static TilesManager _tilesManager => TilesManager.Instance!;
 
-    [Export] public int MapWidth { get; private set; }
-    [Export] public int MapHeight { get; private set; }
+    [Export] public MapSettingsResource MapSettings { get; private set; } = new MapSettingsResource();
 
     private bool MapIsLoading { get; set; } = true;
 
     public override void _Ready()
     {
-        _tilesManager.SetUpTiles(MapWidth, MapHeight);
+        _tilesManager.SetUpTiles(MapSettings.Width, MapSettings.Height);
     }
 
     public void OnMapScanned()
