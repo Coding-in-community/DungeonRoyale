@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://cslplb3s5se2m"]
+
+[ext_resource type="Script" uid="uid://c2q15i1u3gl3y" path="res://Modules/Map/Scripts/MapSettingsResource.cs" id="1_bcgwb"]
+
+[resource]
+script = ExtResource("1_bcgwb")
+Width = 1500
+Height = 1500

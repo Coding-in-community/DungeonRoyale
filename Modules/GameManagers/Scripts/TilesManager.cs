@@ -38,6 +38,12 @@ public partial class TilesManager : Node2D
         _height = height;
 
         Tiles = new DRTileData[_width, _height];
+
+        for (int x = 0; x < _width; x++)
+        for (int y = 0; y < _height; y++)
+        {
+            Tiles[x, y] = new DRTileData(x, y);
+        }
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
