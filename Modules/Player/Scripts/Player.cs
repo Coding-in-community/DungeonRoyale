@@ -3,7 +3,7 @@ namespace DungeonRoyale.Modules.Player.Scripts;
 public partial class Player : CharacterBody2D
 {
 	[Export] private float MovementSpeed { get; set; } = 200.0f;
-	private AnimatedSprite2D _animatedSprite;
+	private AnimatedSprite2D _animatedSprite = null!;
 	private Direction _currentDirection = Direction.South;
 
 	private const float DIRECTION_THRESHOLD = 0.1f;
