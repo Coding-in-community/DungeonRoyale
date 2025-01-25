@@ -18,23 +18,19 @@ public partial class TileMapManager : Node2D
             GD.PrintErr("There is already an instance of TileMapManager in the scene.");
         }
 
-        var tileMapLayers = this.GetRecursivelyNodesOfType<TileMapLayer>();
-
-        foreach (var tileMapLayer in tileMapLayers)
+        if (GetTree().CurrentScene.FindChild(nameof(GroundTileMap), true) is not TileMapLayer groundTileMap)
         {
-            if (tileMapLayer.Name == nameof(GroundTileMap))
-            {
-                GroundTileMap = tileMapLayer;
-            }
-            else if (tileMapLayer.Name == nameof(SpawnTileMap))
-            {
-                SpawnTileMap = tileMapLayer;
-            }
+            GD.PrintErr("GroundTileMap node not found.");
+            return;
         }
 
-        if (GroundTileMap is null || SpawnTileMap is null)
+        if (GetTree().CurrentScene.FindChild(nameof(SpawnTileMap), true) is not TileMapLayer spawnTileMap)
         {
-            GD.PrintErr("TileMapLayers not found.");
+            GD.PrintErr("SpawnTileMap node not found.");
+            return;
         }
+
+        GroundTileMap = groundTileMap;
+        SpawnTileMap = spawnTileMap;
     }
 }

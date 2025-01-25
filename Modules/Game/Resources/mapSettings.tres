@@ -4,5 +4,5 @@
 
 [resource]
 script = ExtResource("1_bcgwb")
-Width = 500
-Height = 500
+Width = 1500
+Height = 1500
