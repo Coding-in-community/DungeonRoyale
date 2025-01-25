@@ -14,6 +14,15 @@ public partial class Game : Node2D
     public override void _Ready()
     {
         _tilesManager.SetUpTiles(MapSettings.Width, MapSettings.Height);
+
+        if (FindChild(nameof(MapScanner), true) is not MapScanner mapScanner)
+        {
+            GD.PrintErr("MapScanner node not found.");
+            return;
+        }
+
+        mapScanner.MapScanned += OnMapScanned;
+        mapScanner.Scan(MapSettings.Width, MapSettings.Height);
     }
 
     public void OnMapScanned()
