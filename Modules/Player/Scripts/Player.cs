@@ -1,4 +1,4 @@
-using DungeonRoyale.Shared.Scripts.Constants;
+using DungeonRoyale.Modules.Shared.Scripts.Constants;
 
 namespace DungeonRoyale.Modules.Player.Scripts;
 
