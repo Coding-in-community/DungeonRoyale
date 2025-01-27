@@ -1,8 +1,8 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
+using DungeonRoyale.Modules.Shared.Scripts.Constants;
 using DungeonRoyale.Modules.Tiles.Scripts;
-using DungeonRoyale.Shared.Scripts.Constants;
 
 namespace DungeonRoyale.Modules.GameManagers.Scripts;
 

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://4gd2xpuyufru"
-path="res://.godot/imported/font1.ttf-6e7ba9975eab5806005bb5a794c32bb2.fontdata"
+path="res://.godot/imported/font1.ttf-a1e3d7eaf2a3dd96c6c75edf31a94005.fontdata"
 
 [deps]
 
-source_file="res://Shared/Resources/font1.ttf"
-dest_files=["res://.godot/imported/font1.ttf-6e7ba9975eab5806005bb5a794c32bb2.fontdata"]
+source_file="res://Modules/Shared/Resources/font1.ttf"
+dest_files=["res://.godot/imported/font1.ttf-a1e3d7eaf2a3dd96c6c75edf31a94005.fontdata"]
 
 [params]
 
@@ -23,6 +23,7 @@ allow_system_fallback=true
 force_autohinter=false
 hinting=1
 subpixel_positioning=4
+keep_rounding_remainders=true
 oversampling=0.0
 Fallbacks=null
 fallbacks=[]

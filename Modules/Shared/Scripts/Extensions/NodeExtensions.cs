@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace DungeonRoyale.Shared.Scripts.Extensions;
+namespace DungeonRoyale.Modules.Shared.Scripts.Extensions;
 
 public static class NodeExtensions
 {
